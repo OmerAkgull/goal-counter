@@ -24,15 +24,23 @@ function myFourthFunction() {
 }
 
 function myFifthFunction() {
-  document.getElementById("counterOne").innerHTML = prompt(
-    "How many goals has your team scored?"
-  );
+  let x = prompt("How many goals has your team scored?");
+  if (x > 0) {
+    document.getElementById("counterOne").innerHTML = x;
+  } else {
+    alert("Please enter a number!")
+    return myFifthFunction()
+  }
 }
 
 function mySixthFunction() {
-  document.getElementById("counterTwo").innerHTML = prompt(
-    "How many goals has your team scored?"
-  );
+  let x = prompt("How many goals has your team scored?");
+  if (x > 0) {
+    document.getElementById("counterTwo").innerHTML = x;
+  } else {
+    alert("Please enter a number!")
+    return mySixthFunction()
+  }
 }
 
 function mySeventhFunction() {
