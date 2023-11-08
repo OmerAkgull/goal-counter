@@ -10,6 +10,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: "Roboto", sans-serif;
+  background-color: #283618;
 }
 img,
 picture,
@@ -37,4 +38,51 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+h1 {
+  color: #fefae0;
+  text-align: center;
+  font-size: 48px;
+  padding-top: 50px;
+}
+
+h2 {
+  color: #fefae0;
+  font-size: 36px;
+}
+
+.match-container {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 550px;
+  border: 5px solid #fefae0;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  justify-content: space-around;
+}
+
+.img-field {
+  display: block;
+  max-width: 100%;
+  width: 795px;
+  height: auto;
+}
+
+.bjk-logo,
+.madrid-logo {
+  display: block;
+  max-width: 100%;
+  width: 150px;
+  height: auto;
+}
+
+.team-one,
+.team-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
