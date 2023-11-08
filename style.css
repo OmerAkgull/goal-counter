@@ -94,3 +94,19 @@ h2 {
   text-decoration: underline;
   font-weight: 700;
 }
+
+.counter-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-wrapper button {
+    background-color: #bc6c25;
+    color: #fefae0;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 7px;
+}
