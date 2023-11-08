@@ -98,15 +98,24 @@ h2 {
 .counter-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   justify-content: center;
   align-items: center;
 }
 
 .counter-wrapper button {
-    background-color: #bc6c25;
-    color: #fefae0;
-    font-size: 24px;
-    padding: 10px;
-    border-radius: 7px;
+  background-color: #bc6c25;
+  color: #fefae0;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.team-one button,
+.team-two button {
+  background-color: #bc6c25;
+  color: #fefae0;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 7px;
 }
